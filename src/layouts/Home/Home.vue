@@ -6,5 +6,5 @@
   </template>
 
 <script setup lang="ts">
-import AppHeader from "@components/Layouts/AppHeader";
+   import AppHeader from "@/components/Layouts/AppHeader";
 </script>
