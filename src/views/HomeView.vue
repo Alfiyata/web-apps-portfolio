@@ -14,7 +14,7 @@
                 I love creating elegant solutions to complex problems and building delightful user experiences.
               </p>
               <div class="mt-10 flex items-center justify-center gap-x-6">
-                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
+                <a href="http://www.linkedin.com/in/alfiyata" class="text-sm font-semibold leading-6 text-gray-900">
                   Contact Me <span aria-hidden="true">→</span>
                 </a>
               </div>
