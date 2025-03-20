@@ -60,16 +60,17 @@
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
+              <a href="/" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Home</a>
               <Disclosure as="div" class="-mx-3" v-slot="{ open }">
                 <DisclosureButton class="flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
-                  Product
+                  Portfolio
                   <ChevronDownIcon :class="[open ? 'rotate-180' : '', 'size-5 flex-none']" aria-hidden="true" />
                 </DisclosureButton>
                 <DisclosurePanel class="mt-2 space-y-2">
                   <DisclosureButton v-for="item in [...products]" :key="item.name" as="a" :href="item.href" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50">{{ item.name }}</DisclosureButton>
                 </DisclosurePanel>
               </Disclosure>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Contact</a>
+              <a href="/contact" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Contact</a>
             </div>
           </div>
         </div>
@@ -92,21 +93,18 @@ import {
   PopoverPanel,
 } from '@headlessui/vue'
 import {
-  ArrowPathIcon,
   Bars3Icon,
   ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
+  ChatBubbleBottomCenterIcon,
   SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/vue/24/outline'
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 
 const products = [
-  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
-  { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-  { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+  { name: 'OMS Dashboard', description: 'Build your own dashboard order management system', href: '#', icon: ChartPieIcon },
+  { name: 'CRM Dashboard', description: 'Create your own dashboard customer relationship management', href: '#', icon: ChatBubbleBottomCenterIcon },
+  { name: 'UI&UX', description: 'Design your own UI&UX', href: '#', icon: SquaresPlusIcon }
 ]
   
 const mobileMenuOpen = ref(false)

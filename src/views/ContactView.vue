@@ -4,24 +4,24 @@
     
     <div class="contact-methods">
       <div class="contact-item">
-        <i class="fas fa-envelope"></i>
+        <img src="@/assets/images/gmail-logo.png" alt="Gmail" class="contact-logo"/>
         <h3>Email</h3>
-        <a href="mailto:your.email@example.com">your.email@example.com</a>
+        <a href="https://mail.google.com/mail/u/0/">alfiyata99@gmail.com</a>
       </div>
 
       <div class="contact-item">
-        <i class="fab fa-linkedin"></i>
+        <img src="@/assets/images/linkedin-logo.png" alt="LinkedIn" class="contact-logo"/>
         <h3>LinkedIn</h3>
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank">
-          linkedin.com/in/your-profile
+        <a href="http://www.linkedin.com/in/alfiyata" target="_blank">
+          Alfiyata
         </a>
       </div>
 
       <div class="contact-item">
-        <i class="fab fa-whatsapp"></i>
+        <img src="@/assets/images/whatsapp-logo.png" alt="WhatsApp" class="contact-logo"/>
         <h3>WhatsApp</h3>
-        <a href="https://wa.me/1234567890" target="_blank">
-          +1 (234) 567-890
+        <a href="https://wa.me/089518976601" target="_blank">
+          +62 89518976601
         </a>
       </div>
     </div>
@@ -63,10 +63,11 @@ h1 {
   transform: translateY(-5px);
 }
 
-.contact-item i {
-  font-size: 2.5rem;
-  color: #42b883;
+.contact-logo {
+  width: 2.5rem;
+  height: 2.5rem;
   margin-bottom: 1rem;
+  object-fit: contain;
 }
 
 .contact-item h3 {
