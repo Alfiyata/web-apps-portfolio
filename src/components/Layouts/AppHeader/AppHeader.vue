@@ -2,10 +2,14 @@
   <header class="bg-white fixed top-0 left-0 right-0 z-50 transition-all duration-300" :class="{ 'shadow-md': scrolled }">
     <nav class="mx-auto flex w-full items-center justify-between px-8" aria-label="Global">
       <div>
-        <a href="#" class="-m-1.5 p-1.5">
+        <router-link to="/" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Contact</span>
-          <img class="h-8 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" alt="" />
-        </a>
+          <div class="h-12 w-12 rounded-full bg-indigo-500 flex items-center justify-center">
+            <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+          </div>
+        </router-link>
       </div>
       <div class="flex lg:hidden">
         <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = true">

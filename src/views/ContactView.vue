@@ -1,6 +1,6 @@
 <template>
   <div class="contact-container">
-    <h1>Contact Me</h1>
+    <h1 class="mt-20">Contact Me</h1>
     
     <div class="contact-methods">
       <div class="contact-item">
@@ -22,6 +22,13 @@
         <h3>WhatsApp</h3>
         <a href="https://wa.me/089518976601" target="_blank">
           +62 89518976601
+        </a>
+      </div>
+      <div class="contact-item">
+        <img src="@/assets/images/github-logo.png" alt="WhatsApp" class="contact-logo"/>
+        <h3>Github</h3>
+        <a href="https://github.com/Alfiyata" target="_blank">
+          Alfiyata
         </a>
       </div>
     </div>
