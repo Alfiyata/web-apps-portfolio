@@ -1,7 +1,7 @@
 <template>
     <div>
       <!-- Hero Section -->
-      <div class="bg-white max-w-full h-screen flex items-center justify-center">
+      <div class="bg-white max-w-full h-screen flex items-center justify-center mt-16">
         <div class="relative isolate px-6 lg:px-8">
           <div class="mx-auto max-w-7xl flex flex-col md:flex-row items-center">
             <div class="w-full md:w-1/2 mb-8 md:mb-0">
