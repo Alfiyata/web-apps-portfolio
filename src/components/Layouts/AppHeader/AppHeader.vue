@@ -34,10 +34,10 @@
                     <component :is="item.icon" class="size-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                   </div>
                   <div class="flex-auto">
-                    <a :href="item.href" class="block font-semibold text-gray-900">
+                    <router-link :to="item.href" class="block font-semibold text-gray-900">
                       {{ item.name }}
                       <span class="absolute inset-0" />
-                    </a>
+                    </router-link>
                     <p class="mt-1 text-gray-600">{{ item.description }}</p>
                   </div>
                 </div>
