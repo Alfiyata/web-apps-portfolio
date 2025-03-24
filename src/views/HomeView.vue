@@ -1,25 +1,33 @@
 <template>
     <div>
       <!-- Hero Section -->
-      <div class="bg-white max-w-full h-screen flex items-center justify-center mt-16">
+      <div class="bg-white max-w-full h-screen flex items-center justify-center">
         <div class="relative isolate px-6 lg:px-8">
-          <div class="mx-auto max-w-7xl flex flex-col md:flex-row items-center">
-            <div class="w-full md:w-1/2 mb-8 md:mb-0">
-              <img src="@/assets/images/profile-img.png" alt="Profile Photo" class="rounded-full w-72 h-72 md:w-96 md:h-96 object-cover shadow-lg mx-auto" />
-            </div>
-            <div class="w-full md:w-1/2">
-              <div class="text-center md:text-left">
-                <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                  <span class="typing-text" :class="{ 'typing-animation': startTyping }">{{ displayText }}</span>
-                  <span class="cursor" :class="{ 'blink': startTyping }">|</span>
-                </h1>
-                <p class="mt-6 text-lg leading-8 text-gray-600">
-                  I'm a passionate frontend developer with expertise in Vue.js, Javascript, TypeScript, and modern web technologies. 
-                  I love creating elegant solutions to complex problems and building delightful user experiences.
-                </p>
-                <div class="mt-10 flex items-center justify-center md:justify-start gap-x-6">
-                  <a href="http://www.linkedin.com/in/alfiyata" class="text-sm font-semibold leading-6 text-gray-900">
-                    Contact Me <span aria-hidden="true">→</span>
+          <div class="flex flex-col justify-left">
+            <img src="@/assets/images/profile-img.png" alt="Profile Photo" class="rounded-full w-24 h-24 md:w-32 md:h-32 object-cover shadow-2xl mb-8" />
+            <div class="max-w-2xl text-left">
+              <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                <span class="typing-text" :class="{ 'typing-animation': startTyping }">{{ displayText }}</span>
+                <span class="cursor" :class="{ 'blink': startTyping }">|</span>
+              </h1>
+              <p class="mt-6 text-lg leading-8 text-gray-600">
+                I'm a passionate frontend developer with expertise in Vue.js, Javascript, TypeScript, and modern web technologies. 
+                I love creating elegant solutions to complex problems and building delightful user experiences.
+              </p>
+              <div class="mt-4 flex items-center justify-left gap-x-6">
+                <div class="contact-item w-6 h-6">
+                  <a href="http://www.linkedin.com/in/alfiyata-86a6b11b1" target="_blank">
+                    <img src="@/assets/images/linkedin-svg.svg" alt="LinkedIn" class="contact-svg"/>
+                  </a>
+                </div>
+                <div class="contact-item w-6 h-6">
+                  <a href="https://wa.me/089518976601" target="_blank">
+                    <img src="@/assets/images/whatsapp-svg.svg" alt="WhatsApp" class="contact-svg"/>
+                  </a>
+                </div>
+                <div class="contact-item w-6 h-6">
+                  <a href="https://github.com/Alfiyata" target="_blank">
+                    <img src="@/assets/images/github-svg.svg" alt="WhatsApp" class="contact-svg"/>
                   </a>
                 </div>
               </div>
