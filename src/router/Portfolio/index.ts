@@ -4,7 +4,7 @@ import PortfolioCRM from '../Portfolio/crm';
 const portfolioRoutes = {
   path: '/portfolio',
   component: HomeLayout,
-  redirect: '/portfolio/crm',
+  redirect: '/crm',
   children: [
     PortfolioCRM
   ]
