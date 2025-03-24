@@ -2,13 +2,13 @@
   <div>
     <div class="bg-gray-50 py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <div class="mx-auto max-w-2xl text-center">
+          <div data-aos="fade-up" class="mx-auto max-w-2xl text-center">
             <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What I Do</h2>
             <p class="mt-2 text-lg leading-8 text-gray-600">My expertise and services</p>
           </div>
           <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <!-- Card 1 -->
-            <div class="flex flex-col items-start justify-between rounded-2xl bg-white p-8 shadow-lg ring-1 ring-gray-200">
+            <div data-aos="fade-right" class="flex flex-col items-start justify-between rounded-2xl bg-white p-8 shadow-lg ring-1 ring-gray-200">
               <div class="w-full">
                 <div class="flex items-center gap-x-4 text-xs mb-4">
                   <div class="h-12 w-12 rounded-full bg-indigo-500 flex items-center justify-center">
@@ -23,7 +23,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="flex flex-col items-start justify-between rounded-2xl bg-white p-8 shadow-lg ring-1 ring-gray-200">
+            <div data-aos="fade-up" class="flex flex-col items-start justify-between rounded-2xl bg-white p-8 shadow-lg ring-1 ring-gray-200">
               <div class="w-full">
                 <div class="flex items-center gap-x-4 text-xs mb-4">
                   <div class="h-12 w-12 rounded-full bg-indigo-500 flex items-center justify-center">
@@ -38,7 +38,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="flex flex-col items-start justify-between rounded-2xl bg-white p-8 shadow-lg ring-1 ring-gray-200">
+            <div data-aos="fade-left" class="flex flex-col items-start justify-between rounded-2xl bg-white p-8 shadow-lg ring-1 ring-gray-200">
               <div class="w-full">
                 <div class="flex items-center gap-x-4 text-xs mb-4">
                   <div class="h-12 w-12 rounded-full bg-indigo-500 flex items-center justify-center">

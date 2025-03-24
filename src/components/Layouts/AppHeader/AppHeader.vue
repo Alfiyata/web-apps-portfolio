@@ -51,7 +51,7 @@
     </nav>
     <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
       <div class="fixed inset-0 z-10" />
-      <DialogPanel class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+      <DialogPanel data-aos="fade-left" class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
         <div class="flex items-center justify-between">
           <div class="h-12 w-12 rounded-full bg-indigo-500 flex items-center justify-center">
             <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -108,8 +108,8 @@ import {
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 
 const products = [
-  { name: 'OMS Dashboard', description: 'Build your own dashboard order management system', href: '/portfolio/crm', icon: ChartPieIcon },
-  { name: 'CRM Dashboard', description: 'Create your own dashboard customer relationship management', href: '#', icon: ChatBubbleBottomCenterIcon },
+  { name: 'OMS Dashboard', description: 'Build your own dashboard order management system', href: '#', icon: ChartPieIcon },
+  { name: 'CRM Dashboard', description: 'Create your own dashboard customer relationship management', href: '/portfolio/crm', icon: ChatBubbleBottomCenterIcon },
   { name: 'UI&UX', description: 'Design your own UI&UX', href: '#', icon: SquaresPlusIcon }
 ]
   

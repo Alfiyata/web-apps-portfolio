@@ -3,28 +3,28 @@
     <h1 class="mt-20">Contact Me</h1>
     
     <div class="contact-methods">
-      <div class="contact-item">
+      <div data-aos="fade-right" class="contact-item">
         <img src="@/assets/images/gmail-logo.png" alt="Gmail" class="contact-logo"/>
         <h3>Email</h3>
         <a href="https://mail.google.com/mail/u/0/">alfiyata99@gmail.com</a>
       </div>
 
-      <div class="contact-item">
+      <div data-aos="fade-left" class="contact-item">
         <img src="@/assets/images/linkedin-logo.png" alt="LinkedIn" class="contact-logo"/>
         <h3>LinkedIn</h3>
-        <a href="http://www.linkedin.com/in/alfiyata" target="_blank">
+        <a href="http://www.linkedin.com/in/alfiyata-86a6b11b1" target="_blank">
           Alfiyata
         </a>
       </div>
 
-      <div class="contact-item">
+      <div data-aos="fade-right" class="contact-item">
         <img src="@/assets/images/whatsapp-logo.png" alt="WhatsApp" class="contact-logo"/>
         <h3>WhatsApp</h3>
         <a href="https://wa.me/089518976601" target="_blank">
           +62 89518976601
         </a>
       </div>
-      <div class="contact-item">
+      <div data-aos="fade-left" class="contact-item">
         <img src="@/assets/images/github-logo.png" alt="WhatsApp" class="contact-logo"/>
         <h3>Github</h3>
         <a href="https://github.com/Alfiyata" target="_blank">

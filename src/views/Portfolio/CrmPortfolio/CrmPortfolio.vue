@@ -19,7 +19,31 @@
               </dl>
             </div>
           </div>
-          <img src="@/assets/images/crm-dashboard.png" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442" />
+          <img data-aos="zoom-in" src="@/assets/images/crm-dashboard.png" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442" />
+        </div>
+      </div>
+      <div class="bg-white py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl text-center">
+            <div class="mx-auto mt-4 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+              <div class="text-center">
+                <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Vue.js.svg" alt="Transistor" width="158" height="48">
+                <p class="text-sm text-gray-600 mt-2">Vue.js</p>
+              </div>
+              <div class="text-center">
+                <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Ionic.svg" alt="Transistor" width="158" height="48">
+                <p class="text-sm text-gray-600 mt-2">Ionic</p>
+              </div>
+              <div class="text-center">
+                <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/JavaScript.svg" alt="Transistor" width="158" height="48">
+                <p class="text-sm text-gray-600 mt-2">JavaScript</p>
+              </div>
+              <div class="text-center">
+                <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Tailwind CSS.svg" alt="Transistor" width="158" height="48">
+                <p class="text-sm text-gray-600 mt-2">Tailwind CSS</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
