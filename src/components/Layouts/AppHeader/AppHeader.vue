@@ -1,5 +1,28 @@
 <template>
   <header class="bg-white fixed top-0 left-0 right-0 z-50 transition-all duration-300" :class="{ 'shadow-md': scrolled }">
+    <div v-if="showBanner" class="bg-indigo-600">
+        <div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between">
+            <div class="flex-1 text-center">
+              <p class="text-white">
+                🚧 The website will be updated gradually. 🚧
+              </p>
+            </div>
+            <div class="ml-4">
+              <button
+                type="button"
+                @click="showBanner = false"
+                class="rounded-md p-1.5 text-white hover:bg-indigo-500 focus:outline-none"
+              >
+                <span class="sr-only">Dismiss</span>
+                <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     <nav v-if="!mobileMenuOpen" class="mx-auto flex w-full items-center justify-between px-8" aria-label="Global">
       <div>
         <router-link to="/" class="-m-1.5 p-1.5">
@@ -105,16 +128,17 @@ import {
   SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/vue/24/outline'
-import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 
+import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 const products = [
   { name: 'OMS Dashboard', description: 'Build your own dashboard order management system', href: '#', icon: ChartPieIcon },
   { name: 'CRM Dashboard', description: 'Create your own dashboard customer relationship management', href: '/portfolio/crm', icon: ChatBubbleBottomCenterIcon },
   { name: 'UI&UX', description: 'Design your own UI&UX', href: '#', icon: SquaresPlusIcon }
 ]
-  
+
 const mobileMenuOpen = ref(false)
 const scrolled = ref(false)
+const showBanner = ref(true);
 
 const handleScroll = () => {
   scrolled.value = window.scrollY > 0
