@@ -1,7 +1,7 @@
 <template>
     <div>
       <!-- Hero Section -->
-      <div class="bg-white max-w-full h-screen flex items-center justify-center">
+      <div class="bg-white max-w-full h-screen flex items-center justify-center py-24 sm:py-32 mt-8">
         <div class="relative isolate px-6 lg:px-8">
           <div class="flex flex-col justify-left">
             <img src="@/assets/images/profile-img.png" alt="Profile Photo" class="rounded-full w-24 h-24 md:w-32 md:h-32 object-cover shadow-2xl mb-8" />

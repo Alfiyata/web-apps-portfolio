@@ -123,7 +123,7 @@ import {
 } from '@headlessui/vue'
 import {
   Bars3Icon,
-  ChartPieIcon,
+  BuildingStorefrontIcon,
   ChatBubbleBottomCenterIcon,
   SquaresPlusIcon,
   XMarkIcon,
@@ -131,7 +131,7 @@ import {
 
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 const products = [
-  { name: 'OMS Dashboard', description: 'Build your own dashboard order management system', href: '#', icon: ChartPieIcon },
+  { name: 'OMS Dashboard', description: 'Build your own dashboard order management system', href: '/portfolio/oms', icon: BuildingStorefrontIcon },
   { name: 'CRM Dashboard', description: 'Create your own dashboard customer relationship management', href: '/portfolio/crm', icon: ChatBubbleBottomCenterIcon },
   { name: 'UI&UX', description: 'Design your own UI&UX', href: '#', icon: SquaresPlusIcon }
 ]
