@@ -10,11 +10,11 @@
                 <span class="typing-text" :class="{ 'typing-animation': startTyping }">{{ displayText }}</span>
                 <span class="cursor" :class="{ 'blink': startTyping }">|</span>
               </h1>
-              <p data-aos="fade-up" class="mt-6 text-lg leading-8 text-gray-600">
+              <p class="mt-6 text-lg leading-8 text-gray-600">
                 I'm a passionate frontend developer with expertise in Vue.js, Javascript, TypeScript, and modern web technologies. 
                 I love creating elegant solutions to complex problems and building delightful user experiences.
               </p>
-              <div data-aos="fade-up" class="mt-4 flex items-center justify-left gap-x-6">
+              <div class="mt-4 flex items-center justify-left gap-x-6">
                 <div class="contact-item w-6 h-6">
                   <a href="http://www.linkedin.com/in/alfiyata-86a6b11b1" target="_blank">
                     <img src="@/assets/images/linkedin-svg.svg" alt="LinkedIn" class="contact-svg"/>
