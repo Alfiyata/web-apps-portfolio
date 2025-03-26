@@ -1,6 +1,6 @@
 <template>
   <header class="bg-white fixed top-0 left-0 right-0 z-50 transition-all duration-300" :class="{ 'shadow-md': scrolled }">
-    <div v-if="showBanner" class="bg-indigo-600">
+    <!-- <div v-if="showBanner" class="bg-indigo-600">
         <div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
           <div class="flex items-center justify-between">
             <div class="flex-1 text-center">
@@ -22,7 +22,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     <nav v-if="!mobileMenuOpen" class="mx-auto flex w-full items-center justify-between px-8" aria-label="Global">
       <div>
         <router-link to="/" class="-m-1.5 p-1.5">

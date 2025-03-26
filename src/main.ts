@@ -3,6 +3,7 @@ import 'aos/dist/aos.css';
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
+import LoadingSpinner from './components/molecules/SpinnerLoading'
 
 
 import App from './App.vue'
@@ -14,5 +15,6 @@ const app = createApp(App)
 app.use(createPinia())
 app.use(router)
 AOS.init();
+app.component('LoadingSpinner', LoadingSpinner)
 
 app.mount('#app')
