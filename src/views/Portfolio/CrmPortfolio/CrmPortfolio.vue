@@ -7,6 +7,7 @@
               <h2 class="text-base/7 font-semibold text-indigo-600">Customer Relationship Management CRM</h2>
               <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Dashboard and Analytics</p>
               <p class="mt-6 text-lg/8 text-gray-600">This is a dashboard and analytics for a customer relationship management system. It is a web application that allows businesses to manage their customer relationships and analytics.</p>
+              <p class="mt-6 text-lg/8 text-gray-600">You can send chat, image, video, voice and document whastapp message with "Application Messaging CRM"</p>
               <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                 <div v-for="feature in features" :key="feature.name" class="relative pl-9">
                   <dt class="inline font-semibold text-gray-900">
@@ -19,9 +20,22 @@
               </dl>
             </div>
           </div>
-          <img data-aos="zoom-in" src="@/assets/images/crm-dashboard.png" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442" />
+          <div class="relative">
+            <div>
+              <img data-aos="zoom-in" src="@/assets/images/crm-dashboard.png" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl ring-1 shadow-xl ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432" height="1442" />
+            </div>
+            <div class="grid grid-cols-2 gap-4 relative" style="margin-top: -78px;">
+              <div>
+                <img data-aos="zoom-in" src="@/assets/images/android-msg-2.png" alt="CRM Message" class="w-[18rem] max-w-none">
+              </div>
+              <div >
+                <img data-aos="zoom-in" src="@/assets/images/android-msg-1.png" alt="CRM Message" class="w-[18rem] max-w-none ">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- section tools -->
       <div class="bg-white py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl text-center">
