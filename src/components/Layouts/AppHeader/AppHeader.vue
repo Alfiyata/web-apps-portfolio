@@ -57,7 +57,11 @@
                     <component :is="item.icon" class="size-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                   </div>
                   <div class="flex-auto">
-                    <router-link :to="item.href" class="block font-semibold text-gray-900">
+                    <a v-if="item.external" :href="item.href" target="_blank" rel="noopener noreferrer" class="block font-semibold text-gray-900">
+                      {{ item.name }}
+                      <span class="absolute inset-0" />
+                    </a>
+                    <router-link v-else :to="item.href" class="block font-semibold text-gray-900">
                       {{ item.name }}
                       <span class="absolute inset-0" />
                     </router-link>
@@ -133,7 +137,7 @@ import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 const products = [
   { name: 'OMS Dashboard', description: 'Build your own dashboard order management system', href: '/portfolio/oms', icon: BuildingStorefrontIcon },
   { name: 'CRM Dashboard', description: 'Create your own dashboard customer relationship management', href: '/portfolio/crm', icon: ChatBubbleBottomCenterIcon },
-  { name: 'UI&UX', description: 'Design your own UI&UX', href: 'https://www.behance.net/alfiyata', icon: SquaresPlusIcon, target: '_blank' }
+  { name: 'UI&UX', description: 'Design your own UI&UX', href:'https://www.behance.net/alfiyata', icon: SquaresPlusIcon, external: true }
 ]
 
 const mobileMenuOpen = ref(false)
