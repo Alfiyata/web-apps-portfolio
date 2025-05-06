@@ -133,7 +133,7 @@ import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 const products = [
   { name: 'OMS Dashboard', description: 'Build your own dashboard order management system', href: '/portfolio/oms', icon: BuildingStorefrontIcon },
   { name: 'CRM Dashboard', description: 'Create your own dashboard customer relationship management', href: '/portfolio/crm', icon: ChatBubbleBottomCenterIcon },
-  { name: 'UI&UX', description: 'Design your own UI&UX', href: '#', icon: SquaresPlusIcon }
+  { name: 'UI&UX', description: 'Design your own UI&UX', href: 'https://www.behance.net/alfiyata', icon: SquaresPlusIcon, target: '_blank' }
 ]
 
 const mobileMenuOpen = ref(false)

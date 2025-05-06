@@ -11,8 +11,9 @@
                 <span class="cursor" :class="{ 'blink': startTyping }">|</span>
               </h1>
               <p class="mt-6 text-lg leading-8 text-gray-600">
-                I'm a passionate frontend developer with expertise in Vue.js, Javascript, TypeScript, and modern web technologies. 
-                I love creating elegant solutions to complex problems and building delightful user experiences.
+                <!-- I'm a passionate frontend developer with expertise in Vue.js, Javascript, TypeScript, and modern web technologies. 
+                I love creating elegant solutions to complex problems and building delightful user experiences. -->
+                UI/UX Designer with over 4 years of experience in creating intuitive, accessible, and aesthetically pleasing user interfaces for web and mobile applications. Blending a strong design sensibility with front-end development expertise in React.js, Vue.js, and TailwindCSS. Adept at design systems, wireframing, prototyping, and collaborating across cross-functional teams to deliver user-centered solutions.
               </p>
               <div class="mt-4 flex items-center justify-left gap-x-6">
                 <div class="contact-item w-6 h-6">
@@ -25,11 +26,11 @@
                     <img src="@/assets/images/whatsapp-svg.svg" alt="WhatsApp" class="contact-svg"/>
                   </a>
                 </div>
-                <div class="contact-item w-6 h-6">
+                <!-- <div class="contact-item w-6 h-6">
                   <a href="https://github.com/Alfiyata" target="_blank">
                     <img src="@/assets/images/github-svg.svg" alt="WhatsApp" class="contact-svg"/>
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

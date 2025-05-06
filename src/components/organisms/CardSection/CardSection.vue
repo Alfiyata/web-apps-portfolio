@@ -8,7 +8,7 @@
           </div>
           <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <!-- Card 1 -->
-            <div data-aos="fade-right" class="flex flex-col items-start justify-between rounded-2xl bg-white p-8 shadow-lg ring-1 ring-gray-200">
+            <div class="flex flex-col items-start justify-between rounded-2xl bg-white p-8 shadow-lg ring-1 ring-gray-200">
               <div class="w-full">
                 <div class="flex items-center gap-x-4 text-xs mb-4">
                   <div class="h-12 w-12 rounded-full bg-indigo-500 flex items-center justify-center">
@@ -23,7 +23,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div data-aos="fade-up" class="flex flex-col items-start justify-between rounded-2xl bg-white p-8 shadow-lg ring-1 ring-gray-200">
+            <div class="flex flex-col items-start justify-between rounded-2xl bg-white p-8 shadow-lg ring-1 ring-gray-200">
               <div class="w-full">
                 <div class="flex items-center gap-x-4 text-xs mb-4">
                   <div class="h-12 w-12 rounded-full bg-indigo-500 flex items-center justify-center">
@@ -38,7 +38,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div data-aos="fade-left" class="flex flex-col items-start justify-between rounded-2xl bg-white p-8 shadow-lg ring-1 ring-gray-200">
+            <div class="flex flex-col items-start justify-between rounded-2xl bg-white p-8 shadow-lg ring-1 ring-gray-200">
               <div class="w-full">
                 <div class="flex items-center gap-x-4 text-xs mb-4">
                   <div class="h-12 w-12 rounded-full bg-indigo-500 flex items-center justify-center">
