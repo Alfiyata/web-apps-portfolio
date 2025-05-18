@@ -29,22 +29,22 @@
 import { computed } from 'vue'
 
 const skills1 = [
-  { src: '/src/assets/logo/Vue.js.svg', alt: 'Vue.js', label: 'Vue.js' },
-  { src: '/src/assets/logo/React.svg', alt: 'React', label: 'React' },
-  { src: '/src/assets/logo/Ionic.svg', alt: 'Ionic', label: 'Ionic' },
-  { src: '/src/assets/logo/JavaScript.svg', alt: 'JavaScript', label: 'JavaScript' },
-  { src: '/src/assets/logo/TypeScript.svg', alt: 'TypeScript', label: 'TypeScript' },
-  { src: '/src/assets/logo/HTML5.svg', alt: 'HTML5', label: 'HTML5' },
-  { src: '/src/assets/logo/Tailwind CSS.svg', alt: 'Tailwind CSS', label: 'Tailwind CSS' },
-  { src: '/src/assets/logo/Laravel.svg', alt: 'Laravel', label: 'Laravel' },
-  { src: '/src/assets/logo/CodeIgniter.svg', alt: 'CodeIgniter', label: 'CodeIgniter' },
-  { src: '/src/assets/logo/Git.svg', alt: 'Git', label: 'Git' },
-  { src: '/src/assets/logo/github-svg.svg', alt: 'GitHub', label: 'GitHub' },
-  { src: '/src/assets/logo/Visual Studio Code (VS Code).svg', alt: 'VS Code', label: 'VS Code' },
-  { src: '/src/assets/logo/Postman.svg', alt: 'Postman', label: 'Postman' },
-  { src: '/src/assets/logo/Adobe Illustrator.svg', alt: 'Illustrator', label: 'Illustrator' },
-  { src: '/src/assets/logo/Adobe Photoshop.svg', alt: 'Photoshop', label: 'Photoshop' },
-  { src: '/src/assets/logo/Figma.svg', alt: 'Figma', label: 'Figma' },
+  { src: '@/assets/logo/Vue.js.svg', alt: 'Vue.js', label: 'Vue.js' },
+  { src: '@/assets/logo/React.svg', alt: 'React', label: 'React' },
+  { src: '@/assets/logo/Ionic.svg', alt: 'Ionic', label: 'Ionic' },
+  { src: '@/assets/logo/JavaScript.svg', alt: 'JavaScript', label: 'JavaScript' },
+  { src: '@/assets/logo/TypeScript.svg', alt: 'TypeScript', label: 'TypeScript' },
+  { src: '@/assets/logo/HTML5.svg', alt: 'HTML5', label: 'HTML5' },
+  { src: '@/assets/logo/Tailwind CSS.svg', alt: 'Tailwind CSS', label: 'Tailwind CSS' },
+  { src: '@/assets/logo/Laravel.svg', alt: 'Laravel', label: 'Laravel' },
+  { src: '@/assets/logo/CodeIgniter.svg', alt: 'CodeIgniter', label: 'CodeIgniter' },
+  { src: '@/assets/logo/Git.svg', alt: 'Git', label: 'Git' },
+  { src: '@/assets/logo/github-svg.svg', alt: 'GitHub', label: 'GitHub' },
+  { src: '@/assets/logo/Visual Studio Code (VS Code).svg', alt: 'VS Code', label: 'VS Code' },
+  { src: '@/assets/logo/Postman.svg', alt: 'Postman', label: 'Postman' },
+  { src: '@/assets/logo/Adobe Illustrator.svg', alt: 'Illustrator', label: 'Illustrator' },
+  { src: '@/assets/logo/Adobe Photoshop.svg', alt: 'Photoshop', label: 'Photoshop' },
+  { src: '@/assets/logo/Figma.svg', alt: 'Figma', label: 'Figma' },
 ]
 
 const skills2 = [...skills1]
