@@ -5,8 +5,8 @@
           <div class="lg:pt-4 lg:pr-8">
             <div class="lg:max-w-lg">
               <h2 class="text-base/7 font-semibold text-indigo-600">Order Management System OMS</h2>
-              <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">OMS Dashboard</p>
-              <p class="mt-6 text-lg/8 text-gray-600">This is a dashboard for an order management system. It is a web application that allows businesses to manage their orders and inventory.</p>
+              <p class="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl">OMS Dashboard</p>
+              <p class="mt-2 text-lg/8 text-gray-600">A web-based dashboard for an Order Management System (OMS) that enables businesses to efficiently manage orders, track inventory, monitor fulfillment status, and streamline operations. Designed for clarity and ease of use, it supports real-time updates and data-driven decision-making.</p>
               <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                 <div v-for="feature in features" :key="feature.name" class="relative pl-9">
                   <dt class="inline font-semibold text-gray-900">

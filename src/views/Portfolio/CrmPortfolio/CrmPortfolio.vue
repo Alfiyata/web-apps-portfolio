@@ -5,9 +5,14 @@
           <div class="lg:pt-4 lg:pr-8">
             <div class="lg:max-w-lg">
               <h2 class="text-base/7 font-semibold text-indigo-600">Customer Relationship Management CRM</h2>
-              <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Dashboard and Analytics</p>
-              <p class="mt-6 text-lg/8 text-gray-600">This is a dashboard and analytics for a customer relationship management system. It is a web application that allows businesses to manage their customer relationships and analytics.</p>
-              <p class="mt-6 text-lg/8 text-gray-600">You can send chat, image, video, voice and document whastapp message with "Application Messaging CRM"</p>
+              <p class="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl">Dashboard and Analytics</p>
+              <p class="mt-2 text-lg/8 text-gray-600">A web-based Customer Relationship Management (CRM) system designed to help businesses manage customer relationships, track interactions, and analyze engagement data through an intuitive dashboard.</p>
+
+              <div class="mt-10">
+                <p class="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl">Application Messaging CRM</p>
+                <p class="mt-2 text-lg/8 text-gray-600">An integrated messaging feature that enables users to send WhatsApp messages—including text, images, videos, voice notes, and documents—directly from the application for seamless communication.</p>
+              </div>
+
               <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                 <div v-for="feature in features" :key="feature.name" class="relative pl-9">
                   <dt class="inline font-semibold text-gray-900">

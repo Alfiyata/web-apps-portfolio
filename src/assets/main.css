@@ -1,6 +1,31 @@
 /* @import './base.css'; */
 @import "tailwindcss";
 
+@keyframes loop-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes loop-scroll-reverse {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.some-element {
+  animation: loop-scroll 30s linear infinite;
+}
+
+.some-element-reverse {
+  animation: loop-scroll-reverse 30s linear infinite;
+}
 
 .app-header {
   background-color: #333;

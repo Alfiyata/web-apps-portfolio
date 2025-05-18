@@ -1,92 +1,64 @@
 <template>
   <div>
     <div class="bg-white py-24 sm:py-32">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-         <div class="mx-auto max-w-2xl text-center">
-          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Programing Skills & Technologies</h2>
-        </div>
-        <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-6">
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Vue.js.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">Vue.js</p>
-          </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/React.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">React</p>
-          </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Ionic.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">Ionic</p>
-          </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/JavaScript.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">JavaScript</p>
-          </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/TypeScript.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">TypeScript</p>
-          </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/CodeIgniter.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">CodeIgniter</p>
-          </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Tailwind CSS.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">Tailwind CSS</p>
-          </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/HTML5.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">HTML5</p>
-          </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Git.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">Git</p>
-          </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/github-svg.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">GitHub</p>
-          </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Visual Studio Code (VS Code).svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">VS Code</p>
-          </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Postman.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">Postman</p>
+      <div class="mx-auto max-w-2xl text-center mb-16">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Programing Skills & Technologies</h2>
+        <p class="mt-4">Technologies I work with</p>
+      </div>
+      <div class="flex overflow-hidden space-x-16">
+        <div class="flex space-x-16 some-element">
+          <div v-for="(skill, i) in shuffledSkills1" :key="i" 
+           class="text-center p-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+        <img class="max-w-none" :src="skill.src" :alt="skill.alt" width="100" height="48">
+        <p class="text-sm text-gray-600 mt-2">{{ skill.label }}</p>
           </div>
         </div>
-        <div class="mx-auto max-w-2xl text-center mt-36">
-          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">UI UX/Skills & Technologies</h2>
-          <h2 class="text-center text-lg/8 font-semibold text-gray-900">Technologies I work with</h2>
-        </div>
-        <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Figma.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">Figma</p>
+        <div class="flex space-x-16 some-element" aria-hidden="true">
+          <div v-for="(skill, i) in shuffledSkills2" :key="i" 
+           class="text-center p-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+        <img class="max-w-none" :src="skill.src" :alt="skill.alt" width="100" height="48">
+        <p class="text-sm text-gray-600 mt-2">{{ skill.label }}</p>
           </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Adobe Illustrator.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">Adobe Illustrator</p>
-          </div>
-          <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Adobe Photoshop.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">Adobe Photoshop</p>
-          </div>
-          <!-- <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Behance.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">Behance</p>
-          </div> -->
-          <!-- <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/Tailwind CSS.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">Tailwind CSS</p>
-          </div> -->
-          <!-- <div class="text-center">
-            <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="@/assets/logo/HTML5.svg" alt="Transistor" width="158" height="48">
-            <p class="text-sm text-gray-600 mt-2">HTML5</p>
-          </div> -->
         </div>
       </div>
     </div>
   </div>
 </template>
 
+<script setup lang="ts">
+import { computed } from 'vue'
+
+const skills1 = [
+  { src: '/src/assets/logo/Vue.js.svg', alt: 'Vue.js', label: 'Vue.js' },
+  { src: '/src/assets/logo/React.svg', alt: 'React', label: 'React' },
+  { src: '/src/assets/logo/Ionic.svg', alt: 'Ionic', label: 'Ionic' },
+  { src: '/src/assets/logo/JavaScript.svg', alt: 'JavaScript', label: 'JavaScript' },
+  { src: '/src/assets/logo/TypeScript.svg', alt: 'TypeScript', label: 'TypeScript' },
+  { src: '/src/assets/logo/HTML5.svg', alt: 'HTML5', label: 'HTML5' },
+  { src: '/src/assets/logo/Tailwind CSS.svg', alt: 'Tailwind CSS', label: 'Tailwind CSS' },
+  { src: '/src/assets/logo/Laravel.svg', alt: 'Laravel', label: 'Laravel' },
+  { src: '/src/assets/logo/CodeIgniter.svg', alt: 'CodeIgniter', label: 'CodeIgniter' },
+  { src: '/src/assets/logo/Git.svg', alt: 'Git', label: 'Git' },
+  { src: '/src/assets/logo/github-svg.svg', alt: 'GitHub', label: 'GitHub' },
+  { src: '/src/assets/logo/Visual Studio Code (VS Code).svg', alt: 'VS Code', label: 'VS Code' },
+  { src: '/src/assets/logo/Postman.svg', alt: 'Postman', label: 'Postman' },
+  { src: '/src/assets/logo/Adobe Illustrator.svg', alt: 'Illustrator', label: 'Illustrator' },
+  { src: '/src/assets/logo/Adobe Photoshop.svg', alt: 'Photoshop', label: 'Photoshop' },
+  { src: '/src/assets/logo/Figma.svg', alt: 'Figma', label: 'Figma' },
+]
+
+const skills2 = [...skills1]
+
+// Fisher-Yates shuffle
+function shuffle(arr: Array<{ src: string; alt: string; label: string }>) {
+  const a = arr.slice()
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+const shuffledSkills1 = computed(() => shuffle(skills1))
+const shuffledSkills2 = computed(() => shuffle(skills2))
+</script>

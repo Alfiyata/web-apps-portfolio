@@ -20,7 +20,6 @@ export default defineConfig({
       '@': locatePATH('./src'),
       '~@': locatePATH('./src'),
       '@assets': locatePATH('./src/assets'),
-      // '@': fileURLToPath(new URL('./src', import.meta.url)),
       '@components': locatePATH('./src/components'),
       '@layouts': locatePATH('./src/layouts'),
       '@views': locatePATH('./src/views'),

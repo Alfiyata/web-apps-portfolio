@@ -2,7 +2,7 @@
   <div>
     <div class="bg-gray-50 py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <div data-aos="fade-up" class="mx-auto max-w-2xl text-center">
+          <div class="mx-auto max-w-2xl text-center">
             <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What I Do</h2>
             <p class="mt-2 text-lg leading-8 text-gray-600">My expertise and services</p>
           </div>
@@ -18,7 +18,7 @@
                   </div>
                 </div>
                 <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">Frontend Development</h3>
-                <p class="mt-2 text-sm leading-6 text-gray-600">Building responsive and interactive user interfaces using modern frameworks and tools.</p>
+                <p class="mt-2 text-sm leading-6 text-gray-600">Crafting responsive, accessible, and interactive user interfaces using modern frameworks and tools such as Vue.js, React.js, and Tailwind CSS. Focused on delivering seamless user experiences across devices with attention to detail, performance, and UI/UX best practices.</p>
               </div>
             </div>
 
@@ -33,7 +33,7 @@
                   </div>
                 </div>
                 <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">Performance Optimization</h3>
-                <p class="mt-2 text-sm leading-6 text-gray-600">Optimizing web applications for speed, efficiency, and better user experience.</p>
+                <p class="mt-2 text-sm leading-6 text-gray-600">Enhancing web application speed, responsiveness, and efficiency through code-splitting, lazy loading, asset optimization, and minimizing render-blocking resources. Focused on delivering smooth user experiences with improved load times and reduced resource consumption across devices and networks.</p>
               </div>
             </div>
 
@@ -48,7 +48,7 @@
                   </div>
                 </div>
                 <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900">UI/UX Implementation</h3>
-                <p class="mt-2 text-sm leading-6 text-gray-600">Translating designs into pixel-perfect, accessible web interfaces.</p>
+                <p class="mt-2 text-sm leading-6 text-gray-600">Translating design systems and mockups into pixel-perfect, responsive, and accessible web interfaces. Ensuring consistency with brand guidelines while maintaining usability, clarity, and interactivity across devices and screen sizes.</p>
               </div>
             </div>
           </div>

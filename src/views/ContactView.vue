@@ -1,12 +1,17 @@
 <template>
   <div class="contact-container">
-    <h1 class="mt-20">Contact Me</h1>
+    <h1 class="mt-20 text-3xl">Contact Me</h1>
     
     <div class="contact-methods">
       <div data-aos="fade-right" class="contact-item">
         <img src="@/assets/images/gmail-logo.png" alt="Gmail" class="contact-logo"/>
         <h3>Email</h3>
-        <a href="https://mail.google.com/mail/u/0/">alfiyata99@gmail.com</a>
+        <button
+          @click="copyEmail"
+          style="background:none;border:none;cursor:pointer;padding:0;font:inherit;color:#42b883;"
+        >
+          alfiyata99@gmail.com
+        </button>
       </div>
 
       <div data-aos="fade-left" class="contact-item">
@@ -36,7 +41,18 @@
 </template>
 
 <script setup lang="ts">
-// Component logic can be added here if needed
+
+const copyEmail = (): void => {
+  const email = 'alfiyata99@gmail.com'
+  navigator.clipboard.writeText(email)
+    .then(() => {
+      alert('Email copied to clipboard!')
+    })
+    .catch(err => {
+      console.error('Failed to copy email: ', err)
+    })
+}
+
 </script>
 
 <style scoped>
@@ -67,7 +83,7 @@ h1 {
 }
 
 .contact-item:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 }
 
 .contact-logo {
