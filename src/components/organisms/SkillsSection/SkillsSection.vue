@@ -27,24 +27,40 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
+import VueLogo from '@/assets/logo/Vue.js.svg'
+import ReactLogo from '@/assets/logo/React.svg'
+import IonicLogo from '@/assets/logo/Ionic.svg'
+import JavaScriptLogo from '@/assets/logo/JavaScript.svg'
+import TypeScriptLogo from '@/assets/logo/TypeScript.svg'
+import HTMLLogo from '@/assets/logo/HTML5.svg'
+import TailwindLogo from '@/assets/logo/Tailwind CSS.svg'
+import LaravelLogo from '@/assets/logo/Laravel.svg'
+import CodeIgniterLogo from '@/assets/logo/CodeIgniter.svg'
+import GitLogo from '@/assets/logo/Git.svg'
+import GitHubLogo from '@/assets/logo/github-svg.svg'
+import VSCodeLogo from '@/assets/logo/Visual Studio Code (VS Code).svg'
+import PostmanLogo from '@/assets/logo/Postman.svg'
+import IllustratorLogo from '@/assets/logo/Adobe Illustrator.svg'
+import PhotoshopLogo from '@/assets/logo/Adobe Photoshop.svg'
+import FigmaLogo from '@/assets/logo/Figma.svg'
 
 const skills1 = [
-  { src: '@/assets/logo/Vue.js.svg', alt: 'Vue.js', label: 'Vue.js' },
-  { src: '@/assets/logo/React.svg', alt: 'React', label: 'React' },
-  { src: '@/assets/logo/Ionic.svg', alt: 'Ionic', label: 'Ionic' },
-  { src: '@/assets/logo/JavaScript.svg', alt: 'JavaScript', label: 'JavaScript' },
-  { src: '@/assets/logo/TypeScript.svg', alt: 'TypeScript', label: 'TypeScript' },
-  { src: '@/assets/logo/HTML5.svg', alt: 'HTML5', label: 'HTML5' },
-  { src: '@/assets/logo/Tailwind CSS.svg', alt: 'Tailwind CSS', label: 'Tailwind CSS' },
-  { src: '@/assets/logo/Laravel.svg', alt: 'Laravel', label: 'Laravel' },
-  { src: '@/assets/logo/CodeIgniter.svg', alt: 'CodeIgniter', label: 'CodeIgniter' },
-  { src: '@/assets/logo/Git.svg', alt: 'Git', label: 'Git' },
-  { src: '@/assets/logo/github-svg.svg', alt: 'GitHub', label: 'GitHub' },
-  { src: '@/assets/logo/Visual Studio Code (VS Code).svg', alt: 'VS Code', label: 'VS Code' },
-  { src: '@/assets/logo/Postman.svg', alt: 'Postman', label: 'Postman' },
-  { src: '@/assets/logo/Adobe Illustrator.svg', alt: 'Illustrator', label: 'Illustrator' },
-  { src: '@/assets/logo/Adobe Photoshop.svg', alt: 'Photoshop', label: 'Photoshop' },
-  { src: '@/assets/logo/Figma.svg', alt: 'Figma', label: 'Figma' },
+  { src: VueLogo, alt: 'Vue.js', label: 'Vue.js' },
+  { src: ReactLogo, alt: 'React', label: 'React' },
+  { src: IonicLogo, alt: 'Ionic', label: 'Ionic' },
+  { src: JavaScriptLogo, alt: 'JavaScript', label: 'JavaScript' },
+  { src: TypeScriptLogo, alt: 'TypeScript', label: 'TypeScript' },
+  { src: HTMLLogo, alt: 'HTML5', label: 'HTML5' },
+  { src: TailwindLogo, alt: 'Tailwind CSS', label: 'Tailwind CSS' },
+  { src: LaravelLogo, alt: 'Laravel', label: 'Laravel' },
+  { src: CodeIgniterLogo, alt: 'CodeIgniter', label: 'CodeIgniter' },
+  { src: GitLogo, alt: 'Git', label: 'Git' },
+  { src: GitHubLogo, alt: 'GitHub', label: 'GitHub' },
+  { src: VSCodeLogo, alt: 'VS Code', label: 'VS Code' },
+  { src: PostmanLogo, alt: 'Postman', label: 'Postman' },
+  { src: IllustratorLogo, alt: 'Illustrator', label: 'Illustrator' },
+  { src: PhotoshopLogo, alt: 'Photoshop', label: 'Photoshop' },
+  { src: FigmaLogo, alt: 'Figma', label: 'Figma' },
 ]
 
 const skills2 = [...skills1]
