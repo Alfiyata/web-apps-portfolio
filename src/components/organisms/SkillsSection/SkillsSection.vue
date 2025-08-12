@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-white py-24 sm:py-32">
+    <div class="bg-white py-24 sm:py-32 max-w-6xl mx-auto px-10">
       <div class="mx-auto max-w-2xl text-center mb-16">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Programing Skills & Technologies</h2>
         <p class="mt-4">Technologies I work with</p>
